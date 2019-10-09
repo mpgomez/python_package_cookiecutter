@@ -1,0 +1,11 @@
+{
+    "author" : "Pilar Gomez",
+    "author_email" : "mp.gomezmoya@gmail.com",
+    "description": "Verbosely explained stuff",
+    "github_user": "mpgomez",
+    "repo_name": "hyphenated-repo-name",
+    "module_name": "{{cookiecutter.repo_name.lower().replace('-', '_')}}",
+    "python_version": "3.6.5",
+    "short_description": "Stuff",
+    "description": "Verbosely explained stuff"
+}
