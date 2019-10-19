@@ -1,4 +1,4 @@
-#Python-package-cookiecutter
+# Python-package-cookiecutter
 Simple [cookiecutter]() repo to generate the skeleton for a basic python project.
 
 ## What you get
@@ -7,7 +7,7 @@ you can use as starting point for a new python project:
 * Basic readme
 * Setup and init files
 * Requirement files (main and dev ones)
-* Tox file for unit tests
+* Unit tests folder and initial files
 
 ## How it works
 Go to the directory where you want to generate your new repo and run:
@@ -22,7 +22,6 @@ Run:
 pip3 install -r requirements.txt
 ```
 
-
-### Test
-
 ### License
+
+Apache 2.0 License. See LICENSE file for details.
