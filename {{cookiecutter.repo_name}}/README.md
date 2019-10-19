@@ -1,4 +1,4 @@
-# {{ cookiecutter.repo_name }}
+ {{ cookiecutter.repo_name }}
 
 {{ cookiecutter.description }}
 
@@ -31,13 +31,4 @@ pip3 install -r requirements-test.txt
 
 ```
 
-3. To run linters and tests
-```
-tox
-```
-
-4. To run formatter
-```
-tox -e black
-```
-
+4. Make help to see options. There are make commands to run, test and install

@@ -6,6 +6,7 @@ import os
 
 
 def read(filename):
+    print("Reading from: {}", os.path.join(os.path.dirname(__file__), filename))
     return open(os.path.join(os.path.dirname(__file__), filename)).read()
 
 
@@ -14,7 +15,7 @@ install_requires = read("requirements.txt")
 setup(
     name="{{ cookiecutter.repo_name }}",
     author="{{ cookiecutter.author }}",
-    author_email = "{{ cookiecutter.author_email }}"
+    author_email = "{{ cookiecutter.author_email }}",
     version=read(".version"),
     description="{{ cookiecutter.short_description }}",
     url="https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.repo_name }}",
