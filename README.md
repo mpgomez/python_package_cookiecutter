@@ -9,6 +9,12 @@ you can use as starting point for a new python project:
 * Requirement files (main and dev ones)
 * Unit tests folder and initial files
 
+## Dependencies
+You will need to install cookiecutter for this to work. Simply run:
+```
+pip install cookiecutter
+```
+
 ## How it works
 Go to the directory where you want to generate your new repo and run:
 ```
