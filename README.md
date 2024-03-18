@@ -12,6 +12,8 @@ you can use as starting point for a new python project:
 ## Dependencies
 You will need to install cookiecutter for this to work. Simply run:
 ```
+python3 -m venv .env
+source .env/bin/activate
 pip install cookiecutter
 ```
 
